@@ -1,0 +1,165 @@
+ Jul 8 00:00:00 prod-app-01 CRON[10001]: (root) CMD (/usr/local/bin/backup.sh)
+ Jul 8 00:30:00 prod-app-01 systemd[1]: Finished Daily apt download activities.
+ Jul 8 00:54:00 prod-app-01 CRON[10002]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+ Jul 8 01:49:00 prod-app-01 CRON[10003]: (root) CMD (/usr/bin/certbot renew --quiet)
+ Jul 8 02:31:00 prod-app-01 systemd[1]: Starting Daily apt download activities...
+ Jul 8 02:44:00 prod-app-01 CRON[10004]: (root) CMD (/usr/local/bin/backup.sh)
+ Jul 8 03:45:00 prod-app-01 CRON[10005]: (root) CMD (/usr/local/bin/backup.sh)
+ Jul 8 04:04:00 prod-app-01 systemd[1]: Finished Daily apt download activities.
+ Jul 8 04:21:00 prod-app-01 CRON[10006]: (root) CMD (/usr/bin/certbot renew --quiet)
+ Jul 8 04:42:00 prod-app-01 systemd[1]: Started Session of user www-data.
+ Jul 8 05:09:00 prod-app-01 CRON[10007]: (root) CMD (/usr/local/bin/backup.sh)
+ Jul 8 03:14:00 prod-app-01 sshd[10008]: Failed password for root from 185.220.101.47 port 45480 ssh2
+ Jul 8 03:14:03 prod-app-01 sshd[10009]: Failed password for administrator from 185.220.101.47 port 46678 ssh2
+ Jul 8 03:14:06 prod-app-01 sshd[10010]: Failed password for root from 185.220.101.47 port 59436 ssh2
+ Jul 8 03:14:09 prod-app-01 sshd[10011]: Failed password for admin from 185.220.101.47 port 47335 ssh2
+ Jul 8 03:14:10 prod-app-01 sshd[10012]: Failed password for admin from 185.220.101.47 port 57899 ssh2
+ Jul 8 03:14:13 prod-app-01 sshd[10013]: Failed password for administrator from 185.220.101.47 port 43571 ssh2
+ Jul 8 03:14:15 prod-app-01 sshd[10014]: Failed password for administrator from 185.220.101.47 port 52814 ssh2
+ Jul 8 03:14:18 prod-app-01 sshd[10015]: Failed password for root from 185.220.101.47 port 42421 ssh2
+ Jul 8 03:14:21 prod-app-01 sshd[10016]: Failed password for admin from 185.220.101.47 port 43688 ssh2
+ Jul 8 03:14:23 prod-app-01 sshd[10017]: Failed password for admin from 185.220.101.47 port 50244 ssh2
+ Jul 8 03:14:26 prod-app-01 sshd[10018]: Failed password for admin from 185.220.101.47 port 57432 ssh2
+ Jul 8 03:14:27 prod-app-01 sshd[10019]: Failed password for root from 185.220.101.47 port 45498 ssh2
+ Jul 8 03:14:30 prod-app-01 sshd[10020]: Failed password for root from 185.220.101.47 port 40241 ssh2
+ Jul 8 03:14:31 prod-app-01 sshd[10021]: Failed password for admin from 185.220.101.47 port 50260 ssh2
+ Jul 8 03:14:32 prod-app-01 sshd[10022]: Failed password for admin from 185.220.101.47 port 48174 ssh2
+ Jul 8 03:14:35 prod-app-01 sshd[10023]: Failed password for administrator from 185.220.101.47 port 52108 ssh2
+ Jul 8 03:14:36 prod-app-01 sshd[10024]: Failed password for administrator from 185.220.101.47 port 59700 ssh2
+ Jul 8 03:14:39 prod-app-01 sshd[10025]: Failed password for administrator from 185.220.101.47 port 54533 ssh2
+ Jul 8 03:14:42 prod-app-01 sshd[10026]: Failed password for administrator from 185.220.101.47 port 54569 ssh2
+ Jul 8 03:14:43 prod-app-01 sshd[10027]: Failed password for administrator from 185.220.101.47 port 49663 ssh2
+ Jul 8 03:14:44 prod-app-01 sshd[10028]: Failed password for root from 185.220.101.47 port 59790 ssh2
+ Jul 8 03:14:47 prod-app-01 sshd[10029]: Failed password for administrator from 185.220.101.47 port 59755 ssh2
+ Jul 8 04:02:00 prod-app-01 sshd[10030]: Failed password for invalid user postgres from 45.33.32.156 port 56886 ssh2
+ Jul 8 04:02:02 prod-app-01 sshd[10031]: Failed password for invalid user test from 45.33.32.156 port 49554 ssh2
+ Jul 8 04:02:04 prod-app-01 sshd[10032]: Failed password for invalid user oracle from 45.33.32.156 port 47466 ssh2
+ Jul 8 04:02:06 prod-app-01 sshd[10033]: Failed password for invalid user git from 45.33.32.156 port 58399 ssh2
+ Jul 8 04:02:08 prod-app-01 sshd[10034]: Failed password for invalid user ubuntu from 45.33.32.156 port 49576 ssh2
+ Jul 8 08:00:00 prod-app-01 sshd[10035]: Accepted password for dlee from 10.20.3.13 port 48377 ssh2
+ Jul 8 08:00:00 prod-app-01 sshd[10036]: pam_unix(sshd:session): session opened for user dlee by (uid=0)
+ Jul 8 08:00:15 prod-app-01 sshd[10037]: pam_unix(sshd:session): session closed for user dlee
+ Jul 8 08:35:17 prod-app-01 sshd[10038]: Accepted password for svance from 10.20.2.52 port 51468 ssh2
+ Jul 8 08:35:17 prod-app-01 sshd[10039]: pam_unix(sshd:session): session opened for user svance by (uid=0)
+ Jul 8 08:35:30 prod-app-01 sudo: svance : TTY=pts/0 ; PWD=/home/svance ; USER=root ; COMMAND=/usr/bin/vim /etc/nginx/sites-available/default
+ Jul 8 08:35:42 prod-app-01 sshd[10040]: pam_unix(sshd:session): session closed for user svance
+ Jul 8 08:48:44 prod-app-01 CRON[10041]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+ Jul 8 08:48:44 prod-app-01 sshd[10042]: Accepted password for dlee from 10.20.3.31 port 57490 ssh2
+ Jul 8 08:48:44 prod-app-01 sshd[10043]: pam_unix(sshd:session): session opened for user dlee by (uid=0)
+ Jul 8 08:49:06 prod-app-01 sshd[10044]: pam_unix(sshd:session): session closed for user dlee
+ Jul 8 09:09:09 prod-app-01 sshd[10045]: Accepted password for jsmith from 10.8.0.31 port 59015 ssh2
+ Jul 8 09:09:09 prod-app-01 sshd[10046]: pam_unix(sshd:session): session opened for user jsmith by (uid=0)
+ Jul 8 09:09:39 prod-app-01 sshd[10047]: pam_unix(sshd:session): session closed for user jsmith
+ Jul 8 09:31:43 prod-app-01 sshd[10048]: Accepted password for dlee from 10.20.1.22 port 54783 ssh2
+ Jul 8 09:31:43 prod-app-01 sshd[10049]: pam_unix(sshd:session): session opened for user dlee by (uid=0)
+ Jul 8 09:31:48 prod-app-01 sudo: dlee : TTY=pts/0 ; PWD=/home/dlee ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 09:32:33 prod-app-01 sshd[10050]: pam_unix(sshd:session): session closed for user dlee
+ Jul 8 09:56:38 prod-app-01 sshd[10051]: Accepted password for nkumar from 10.20.1.33 port 56594 ssh2
+ Jul 8 09:56:38 prod-app-01 sshd[10052]: pam_unix(sshd:session): session opened for user nkumar by (uid=0)
+ Jul 8 09:56:54 prod-app-01 sudo: nkumar : TTY=pts/0 ; PWD=/home/nkumar ; USER=root ; COMMAND=/usr/bin/docker ps
+ Jul 8 09:57:10 prod-app-01 sshd[10053]: pam_unix(sshd:session): session closed for user nkumar
+ Jul 8 10:17:13 prod-app-01 sshd[10054]: Accepted password for jsmith from 10.20.2.32 port 44925 ssh2
+ Jul 8 10:17:13 prod-app-01 sshd[10055]: pam_unix(sshd:session): session opened for user jsmith by (uid=0)
+ Jul 8 10:17:39 prod-app-01 sshd[10056]: pam_unix(sshd:session): session closed for user jsmith
+ Jul 8 10:53:41 prod-app-01 CRON[10057]: (root) CMD (/usr/local/bin/backup.sh)
+ Jul 8 10:53:41 prod-app-01 sshd[10058]: Accepted password for achen from 10.20.1.58 port 57618 ssh2
+ Jul 8 10:53:41 prod-app-01 sshd[10059]: pam_unix(sshd:session): session opened for user achen by (uid=0)
+ Jul 8 10:54:01 prod-app-01 sudo: achen : TTY=pts/0 ; PWD=/home/achen ; USER=root ; COMMAND=/usr/bin/systemctl status app.service
+ Jul 8 10:54:15 prod-app-01 sshd[10060]: pam_unix(sshd:session): session closed for user achen
+ Jul 8 11:00:19 prod-app-01 sshd[10061]: Accepted password for mgarcia from 10.20.3.31 port 57990 ssh2
+ Jul 8 11:00:19 prod-app-01 sshd[10062]: pam_unix(sshd:session): session opened for user mgarcia by (uid=0)
+ Jul 8 11:00:48 prod-app-01 sudo: mgarcia : TTY=pts/0 ; PWD=/home/mgarcia ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 11:01:16 prod-app-01 sshd[10063]: pam_unix(sshd:session): session closed for user mgarcia
+ Jul 8 11:19:20 prod-app-01 sshd[10064]: Accepted password for mgarcia from 10.20.1.29 port 44282 ssh2
+ Jul 8 11:19:20 prod-app-01 sshd[10065]: pam_unix(sshd:session): session opened for user mgarcia by (uid=0)
+ Jul 8 11:19:42 prod-app-01 sudo: mgarcia : TTY=pts/0 ; PWD=/home/mgarcia ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 11:20:21 prod-app-01 sshd[10066]: pam_unix(sshd:session): session closed for user mgarcia
+ Jul 8 11:32:22 prod-app-01 CRON[10067]: (root) CMD (/usr/local/bin/backup.sh)
+ Jul 8 11:32:22 prod-app-01 sshd[10068]: Accepted password for nkumar from 10.20.4.16 port 45705 ssh2
+ Jul 8 11:32:22 prod-app-01 sshd[10069]: pam_unix(sshd:session): session opened for user nkumar by (uid=0)
+ Jul 8 11:32:50 prod-app-01 sudo: nkumar : TTY=pts/0 ; PWD=/home/nkumar ; USER=root ; COMMAND=/usr/bin/docker ps
+ Jul 8 11:33:38 prod-app-01 sshd[10070]: pam_unix(sshd:session): session closed for user nkumar
+ Jul 8 11:51:43 prod-app-01 CRON[10071]: (root) CMD (/usr/bin/certbot renew --quiet)
+ Jul 8 11:51:43 prod-app-01 sshd[10072]: Accepted password for nkumar from 10.20.1.24 port 53440 ssh2
+ Jul 8 11:51:43 prod-app-01 sshd[10073]: pam_unix(sshd:session): session opened for user nkumar by (uid=0)
+ Jul 8 11:51:55 prod-app-01 sudo: nkumar : TTY=pts/0 ; PWD=/home/nkumar ; USER=root ; COMMAND=/usr/bin/docker ps
+ Jul 8 11:52:48 prod-app-01 sshd[10074]: pam_unix(sshd:session): session closed for user nkumar
+ Jul 8 12:23:50 prod-app-01 sshd[10075]: Accepted password for rpatel from 10.20.3.13 port 53220 ssh2
+ Jul 8 12:23:50 prod-app-01 sshd[10076]: pam_unix(sshd:session): session opened for user rpatel by (uid=0)
+ Jul 8 12:24:00 prod-app-01 sudo: rpatel : TTY=pts/0 ; PWD=/home/rpatel ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 12:24:34 prod-app-01 sshd[10077]: pam_unix(sshd:session): session closed for user rpatel
+ Jul 8 12:41:38 prod-app-01 sshd[10078]: Accepted password for dlee from 10.20.3.55 port 48540 ssh2
+ Jul 8 12:41:38 prod-app-01 sshd[10079]: pam_unix(sshd:session): session opened for user dlee by (uid=0)
+ Jul 8 12:41:59 prod-app-01 sshd[10080]: pam_unix(sshd:session): session closed for user dlee
+ Jul 8 13:19:02 prod-app-01 sshd[10081]: Accepted password for kwilliams from 10.20.4.39 port 51544 ssh2
+ Jul 8 13:19:02 prod-app-01 sshd[10082]: pam_unix(sshd:session): session opened for user kwilliams by (uid=0)
+ Jul 8 13:19:23 prod-app-01 sudo: kwilliams : TTY=pts/0 ; PWD=/home/kwilliams ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 13:20:14 prod-app-01 sshd[10083]: pam_unix(sshd:session): session closed for user kwilliams
+ Jul 8 13:35:17 prod-app-01 sshd[10084]: Accepted password for jsmith from 10.20.1.29 port 58545 ssh2
+ Jul 8 13:35:17 prod-app-01 sshd[10085]: pam_unix(sshd:session): session opened for user jsmith by (uid=0)
+ Jul 8 13:35:34 prod-app-01 sudo: jsmith : TTY=pts/0 ; PWD=/home/jsmith ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 13:35:50 prod-app-01 sshd[10086]: pam_unix(sshd:session): session closed for user jsmith
+ Jul 8 13:55:54 prod-app-01 sshd[10087]: Accepted password for achen from 10.8.0.22 port 44044 ssh2
+ Jul 8 13:55:54 prod-app-01 sshd[10088]: pam_unix(sshd:session): session opened for user achen by (uid=0)
+ Jul 8 13:56:15 prod-app-01 sudo: achen : TTY=pts/0 ; PWD=/home/achen ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+ Jul 8 13:56:41 prod-app-01 sshd[10089]: pam_unix(sshd:session): session closed for user achen
+ Jul 8 14:14:42 prod-app-01 sshd[10090]: Accepted password for nkumar from 10.20.2.14 port 51007 ssh2
+ Jul 8 14:14:42 prod-app-01 sshd[10091]: pam_unix(sshd:session): session opened for user nkumar by (uid=0)
+ Jul 8 14:14:50 prod-app-01 sshd[10092]: pam_unix(sshd:session): session closed for user nkumar
+ Jul 8 14:29:55 prod-app-01 sshd[10093]: Accepted password for mgarcia from 10.20.3.35 port 44922 ssh2
+ Jul 8 14:29:55 prod-app-01 sshd[10094]: pam_unix(sshd:session): session opened for user mgarcia by (uid=0)
+ Jul 8 14:30:04 prod-app-01 sshd[10095]: pam_unix(sshd:session): session closed for user mgarcia
+ Jul 8 15:08:08 prod-app-01 sshd[10096]: Accepted password for mgarcia from 10.20.1.33 port 58573 ssh2
+ Jul 8 15:08:08 prod-app-01 sshd[10097]: pam_unix(sshd:session): session opened for user mgarcia by (uid=0)
+ Jul 8 15:08:26 prod-app-01 sudo: mgarcia : TTY=pts/0 ; PWD=/home/mgarcia ; USER=root ; COMMAND=/usr/bin/apt update
+ Jul 8 15:09:18 prod-app-01 sshd[10098]: pam_unix(sshd:session): session closed for user mgarcia
+ Jul 8 15:19:19 prod-app-01 CRON[10099]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+ Jul 8 15:19:19 prod-app-01 sshd[10100]: Accepted password for mgarcia from 10.20.3.42 port 46454 ssh2
+ Jul 8 15:19:19 prod-app-01 sshd[10101]: pam_unix(sshd:session): session opened for user mgarcia by (uid=0)
+ Jul 8 15:19:48 prod-app-01 sudo: mgarcia : TTY=pts/0 ; PWD=/home/mgarcia ; USER=root ; COMMAND=/usr/bin/systemctl status app.service
+ Jul 8 15:20:21 prod-app-01 sshd[10102]: pam_unix(sshd:session): session closed for user mgarcia
+ Jul 8 15:26:24 prod-app-01 sshd[10103]: Accepted password for svance from 10.20.3.46 port 41642 ssh2
+ Jul 8 15:26:24 prod-app-01 sshd[10104]: pam_unix(sshd:session): session opened for user svance by (uid=0)
+ Jul 8 15:26:41 prod-app-01 sudo: svance : TTY=pts/0 ; PWD=/home/svance ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+ Jul 8 15:27:25 prod-app-01 sshd[10105]: pam_unix(sshd:session): session closed for user svance
+ Jul 8 15:36:30 prod-app-01 sshd[10106]: Accepted password for achen from 10.20.1.27 port 54245 ssh2
+ Jul 8 15:36:30 prod-app-01 sshd[10107]: pam_unix(sshd:session): session opened for user achen by (uid=0)
+ Jul 8 15:36:52 prod-app-01 sudo: achen : TTY=pts/0 ; PWD=/home/achen ; USER=root ; COMMAND=/usr/bin/docker ps
+ Jul 8 15:37:52 prod-app-01 sshd[10108]: pam_unix(sshd:session): session closed for user achen
+ Jul 8 16:09:53 prod-app-01 sshd[10109]: Accepted password for mgarcia from 10.8.0.45 port 52785 ssh2
+ Jul 8 16:09:53 prod-app-01 sshd[10110]: pam_unix(sshd:session): session opened for user mgarcia by (uid=0)
+ Jul 8 16:10:00 prod-app-01 sudo: mgarcia : TTY=pts/0 ; PWD=/home/mgarcia ; USER=root ; COMMAND=/usr/bin/docker ps
+ Jul 8 16:10:56 prod-app-01 sshd[10111]: pam_unix(sshd:session): session closed for user mgarcia
+ Jul 8 16:48:58 prod-app-01 sshd[10112]: Accepted password for nkumar from 10.20.2.32 port 50344 ssh2
+ Jul 8 16:48:58 prod-app-01 sshd[10113]: pam_unix(sshd:session): session opened for user nkumar by (uid=0)
+ Jul 8 16:49:16 prod-app-01 sudo: nkumar : TTY=pts/0 ; PWD=/home/nkumar ; USER=root ; COMMAND=/usr/bin/systemctl status app.service
+ Jul 8 16:49:50 prod-app-01 sshd[10114]: pam_unix(sshd:session): session closed for user nkumar
+ Jul 8 17:05:55 prod-app-01 sshd[10115]: Accepted password for achen from 10.20.3.46 port 54828 ssh2
+ Jul 8 17:05:55 prod-app-01 sshd[10116]: pam_unix(sshd:session): session opened for user achen by (uid=0)
+ Jul 8 17:06:18 prod-app-01 sudo: achen : TTY=pts/0 ; PWD=/home/achen ; USER=root ; COMMAND=/usr/bin/vim /etc/nginx/sites-available/default
+ Jul 8 17:06:35 prod-app-01 sshd[10117]: pam_unix(sshd:session): session closed for user achen
+ Jul 8 17:13:40 prod-app-01 sshd[10118]: Accepted password for nkumar from 10.20.3.19 port 40549 ssh2
+ Jul 8 17:13:40 prod-app-01 sshd[10119]: pam_unix(sshd:session): session opened for user nkumar by (uid=0)
+ Jul 8 17:13:50 prod-app-01 sudo: nkumar : TTY=pts/0 ; PWD=/home/nkumar ; USER=root ; COMMAND=/usr/bin/docker ps
+ Jul 8 17:14:07 prod-app-01 sshd[10120]: pam_unix(sshd:session): session closed for user nkumar
+ Jul 8 17:35:12 prod-app-01 sshd[10121]: Accepted password for kwilliams from 10.20.2.47 port 52932 ssh2
+ Jul 8 17:35:12 prod-app-01 sshd[10122]: pam_unix(sshd:session): session opened for user kwilliams by (uid=0)
+ Jul 8 17:35:25 prod-app-01 sshd[10123]: pam_unix(sshd:session): session closed for user kwilliams
+ Jul 8 14:47:00 prod-app-01 sshd[10124]: Failed password for svance from 185.220.101.47 port 41790 ssh2
+ Jul 8 14:47:04 prod-app-01 sshd[10125]: Failed password for svance from 185.220.101.47 port 50741 ssh2
+ Jul 8 14:47:06 prod-app-01 sshd[10126]: Failed password for svance from 185.220.101.47 port 47279 ssh2
+ Jul 8 14:47:11 prod-app-01 sshd[10127]: Failed password for svance from 185.220.101.47 port 43896 ssh2
+ Jul 8 14:47:14 prod-app-01 sshd[10128]: Failed password for svance from 185.220.101.47 port 49538 ssh2
+ Jul 8 14:47:21 prod-app-01 sshd[10129]: Accepted password for svance from 185.220.101.47 port 40554 ssh2
+ Jul 8 14:47:21 prod-app-01 sshd[10130]: pam_unix(sshd:session): session opened for user svance by (uid=0)
+ Jul 8 19:00:00 prod-app-01 sshd[10131]: Accepted password for eross from 10.20.2.14 port 56807 ssh2
+ Jul 8 19:00:00 prod-app-01 sshd[10132]: pam_unix(sshd:session): session opened for user eross by (uid=0)
+ Jul 8 19:00:05 prod-app-01 sudo: eross : TTY=pts/0 ; PWD=/home/eross ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+ Jul 8 19:00:46 prod-app-01 sshd[10133]: pam_unix(sshd:session): session closed for user eross
+ Jul 8 19:40:49 prod-app-01 sshd[10134]: Accepted password for rpatel from 10.20.2.21 port 52445 ssh2
+ Jul 8 19:40:49 prod-app-01 sshd[10135]: pam_unix(sshd:session): session opened for user rpatel by (uid=0)
+ Jul 8 19:41:02 prod-app-01 sshd[10136]: pam_unix(sshd:session): session closed for user rpatel
+ Jul 8 20:02:05 prod-app-01 sshd[10137]: Accepted password for achen from 10.20.2.25 port 55797 ssh2
+ Jul 8 20:02:05 prod-app-01 sshd[10138]: pam_unix(sshd:session): session opened for user achen by (uid=0)
+ Jul 8 20:02:12 prod-app-01 sudo: achen : TTY=pts/0 ; PWD=/home/achen ; USER=root ; COMMAND=/usr/bin/systemctl status app.service
+ Jul 8 20:02:42 prod-app-01 sshd[10139]: pam_unix(sshd:session): session closed for user achen

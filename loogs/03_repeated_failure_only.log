@@ -1,0 +1,6 @@
+ Jul 8 15:19:57 kali sshd[4000]: Failed password for backup from 198.51.100.23 port 43276 ssh2
+ Jul 8 15:20:07 kali sshd[4001]: Failed password for backup from 198.51.100.24 port 48819 ssh2
+ Jul 8 15:20:13 kali sshd[4002]: Failed password for backup from 198.51.100.25 port 43405 ssh2
+ Jul 8 15:20:25 kali sshd[4003]: Failed password for backup from 198.51.100.26 port 52873 ssh2
+ Jul 8 15:20:40 kali sshd[4004]: Failed password for backup from 198.51.100.27 port 42274 ssh2
+ Jul 8 15:20:51 kali sshd[4005]: Failed password for backup from 198.51.100.28 port 58786 ssh2
